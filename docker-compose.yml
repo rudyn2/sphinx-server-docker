@@ -1,0 +1,10 @@
+version: '3'
+
+services:
+  sphinx-server:
+    container_name: sphinx-server
+    image: dldl/sphinx-server
+    ports:
+    - "8000:8000"
+    volumes:
+      - ./source:/web
