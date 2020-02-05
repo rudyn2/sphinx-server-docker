@@ -8,9 +8,10 @@ sphinx service.
 To run the server do this (you must have the docker daemon installed).
 
 1) Install sphinx using pip.
-'''
+
+```
 pip install sphinx
-'''
+```
 
 2) Go to the root of your code directory. For this example the root of the code is the same
 as where this readme is allocated.
@@ -20,17 +21,17 @@ the main files to run sphinx.
 
 4) Execute
 
-'''
+```
 make html
-'''
+```
 
 this will create the html files that are going to contain your documentation.
 
 3) Now get up the docker service running:
 
-'''
+```
 docker-compuse up --build -d
-'''
+```
 
 
 
